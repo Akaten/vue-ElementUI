@@ -1,0 +1,249 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*页尾1 star*/
+.foot1-background {
+    background: #E6E7E9;
+    overflow: auto;
+}
+
+#foot1 {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 20px 0; /*兼容IE7*/
+    overflow: auto;
+}
+
+.foot1-left, .foot1-center, .foot1-right {
+    float: left;
+    width: 398px;
+    border-right: 1px #F6F8FB solid;
+    box-shadow: 1px 0 #D4D5D9;
+    /*margin-bottom: 20px; 兼容IE7*/
+    /*overflow: auto;*/
+}
+
+.foot1-right {
+    border-right: none;
+    box-shadow: none;
+    position: relative;
+}
+
+.foot1-left-ul {
+    float: left;
+    text-align: center;
+    margin-right: 45px;
+}
+
+.foot1-left-ul li {
+    padding: 5px 10px;
+    margin: 10px 0;
+    background: #DEDFE1;
+    border-radius: 5px;
+    -moz-border-radius: 5px; /* Gecko browsers */
+    -webkit-border-radius: 5px; /* Webkit browsers */
+}
+
+.foot1-left-ul li a {
+    font-size: 14px;
+    color: #888888;
+}
+
+.foot1-left-ul li:hover a {
+    color: #000000;
+}
+
+.foot1-left-ul .li1 {
+    font-size: 16px;
+    background: #E6E7E9;
+    color: #333333;
+}
+
+.foot1-center-box {
+    width: 280px;
+    overflow: auto;
+    margin: 0 auto;
+}
+
+.foot1-center-box-l, .foot1-center-box-r {
+    float: left;
+    width: 120px;
+    height: 180px;
+}
+
+.foot1-center-box-l img, .foot1-center-box-r img {
+    float: left;
+    width: 120px;
+    height: 120px;
+    margin-top: 20px;
+}
+
+.foot1-center-box-l div, .foot1-center-box-r div {
+    font-size: 14px;
+    line-height: 40px;
+    text-align: center;
+}
+
+.foot1-center-box-r {
+    float: right;
+}
+
+.foot1-right-box {
+    width: 340px;
+    float: right;
+    overflow: auto;
+    margin-top: 20px;
+}
+
+.foot1-right-box-top {
+    width: 340px;
+    float: right;
+    overflow: auto;
+}
+
+.foot1-right-box-top .phone-img {
+    float: left;
+    width: 50px;
+    height: 50px;
+    background: url(../img/footer/phone-img.png) no-repeat center;
+}
+
+.foot1-right-box-top .phone-text {
+    float: left;
+    font-size: 35px;
+    line-height: 50px;
+}
+
+/*.foot1-right-box {
+    position: relative;
+}*/
+.foot1-right-box p {
+    font-size: 14px;
+    line-height: 30px;
+}
+
+.foot1-right-box p .kefuPhone {
+    float: right;
+    padding: 0 10px;
+    background: #D4D4D4;
+    color: #9fa0a1;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    cursor: pointer;
+}
+
+.foot1-right-box p .kefuPhone:hover {
+    background: #585858;
+    color: #FFFFFF;
+}
+
+.foot1-right-box .kefuPhoneBox {
+    width: 225px;
+    height: 102px;
+    position: absolute;
+    top: -8px;
+    left: 172px;
+    background: url(../img/footer/xzk.png) no-repeat;
+
+    display: none;
+}
+
+.foot1-right-box .kefuPhoneBox p {
+    font-size: 12px;
+    color: #FFFFFF;
+    line-height: 22px;
+    text-align: center;
+}
+
+.foot1-right-box p .first-of-type {
+    margin-right: 30px;
+}
+
+/*页尾1 end*/
+
+/*页尾2 star*/
+.foot2-background {
+    background: #585858;
+}
+
+#foot2 {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.foot2-top {
+
+}
+
+.foot2-top ul {
+    height: 40px;
+    overflow: hidden;
+
+    margin: 0 auto;
+}
+
+.foot2-top li {
+    font-size: 12px;
+    float: left;
+    line-height: 40px;
+    color: #bbbbbb;
+}
+
+.foot2-top li a {
+    padding: 0 23px;
+    color: #bbbbbb;
+}
+
+.foot2-top li a:hover {
+    color: #FFFFFF;
+}
+
+.foot2-top li .more {
+    padding-right: 20px;
+    background: url(../img/footer/more.jpg) no-repeat right;
+}
+
+.foot2-bottom {
+    overflow: auto;
+}
+
+.foot2-bottom-left {
+    float: left;
+}
+
+.foot2-bottom-left ul {
+    overflow: hidden;
+    margin-top: 10px;
+}
+
+.foot2-bottom-left ul li {
+    float: left;
+    width: 95px;
+    height: 70px;
+    margin-right: 20px;
+    opacity: 0.5;
+    filter: alpha(opacity=50);
+}
+
+.foot2-bottom-left li:hover {
+    opacity: 1;
+    filter: alpha(opacity=100);
+}
+
+.foot2-bottom-right {
+    margin-top: 10px;
+    margin-right: 20px;
+    float: right;
+}
+
+.foot2-bottom-right p {
+    font-size: 12px;
+    color: #bbbbbb;
+}
+
+.foot2-bottom-right p .last-of-type {
+    padding-left: 20px;
+}
+
+/*页尾2 end*/

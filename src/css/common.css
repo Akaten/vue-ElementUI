@@ -1,0 +1,83 @@
+input::-webkit-outer-spin-button,  
+input::-webkit-inner-spin-button{  
+    -webkit-appearance: none !important;  
+    margin: 0;  
+}
+/*页面公共样式 start*/
+.center-content-bg{
+    background: #F5F6F8;
+    overflow: hidden;
+    padding: 0px 0 33px;
+    margin-top: 140px;
+}
+.helper-content,.g-index-content,#content1027{margin-top: 140px}
+.yellowText{
+    color: #FC862E !important;
+}
+.yellowText-border{
+    color:#FC862E !important;
+    border-bottom:2px #FC862E solid !important;
+}
+.hide{
+    display: none ;
+}
+.bgColorFFF{
+    background: #FFFFFF !important;
+}
+/*中间内容 star*/
+#center-content{
+    width: 1200px;
+    margin: 0 auto;
+}
+#center-content .pathWord{
+    margin: 15px 0;
+}
+#center-content .pathWord a{
+    font-size: 14px;
+    color: #888888;
+}
+/*中间右侧内容公共样式 star*/
+
+.m-content-r .r-control-investLogPageTitle{
+    width: 900px;
+    margin: 30px auto 13px;
+    line-height: 30px;
+    border-bottom: 1px #DDDDDD solid;
+}
+.m-content-r .r-control-investLogPageTitle div{
+    display: inline-block;
+    _zoom:1;*display:inline;/*兼容IE7*/
+    width: 70px;
+    height: 35px;
+    margin-bottom: -1px;
+    margin-right: 40px;
+    text-align: center;
+    cursor: pointer;
+    color: #666666;
+}
+.m-content-r-box{
+    width: 900px;
+    margin: 0 auto;
+    position: relative;
+}
+
+/*中间右侧内容公共样式 end*/
+
+/* 分页符样式 start */
+.el-pager li.active{
+    background-color: #FC862E !important;
+    border-color: #FC862E !important;
+    color: #fff;
+}
+.el-pager li:hover {
+    color: #fff !important;
+    background: #FC862E !important;
+}
+.el-pagination button:hover{
+    color: #FC862E !important;
+}
+.el-pagination__editor:focus{
+    outline: 0;
+    border-color: #FC862E !important;
+}
+/* 分页符样式 end */
